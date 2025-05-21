@@ -1,0 +1,29 @@
+{
+  "name": "amexfrplaywrighttest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "PROD:FR:Smoke:main": "npx rimraf allure-results allure-report && npx playwright test --grep @smoke --config=playwright.config.ts --project=chrome --headed --trace on-first-retry --reporter=line,allure-playwright && npx allure generate allure-results --clean -o allure-report && npx allure open allure-report",
+    "generateReport": "npx rimraf allure-results allure-report && npx playwright test && npx allure generate allure-results --clean -o allure-report && npx allure open allure-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajvijaykumar/AmexFRPlaywrightTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajvijaykumar/AmexFRPlaywrightTest/issues"
+  },
+  "homepage": "https://github.com/rajvijaykumar/AmexFRPlaywrightTest#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.21",
+    "rimraf": "^6.0.1"
+  },
+  "dependencies": {
+    "allure-playwright": "^3.2.2"
+  }
+}

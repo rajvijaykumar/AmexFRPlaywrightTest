@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","37242","@smoke Validate UI elements in Gold Card application flow with invalid first, last name, dob, email and mobile number","chrome","Wed May 21 14:42:26 IST 2025","passed","Wed May 21 14:43:03 IST 2025","","GoldCardApplicationSignUp.spec.ts","",""
+"","37705","@smoke Validate UI elements in Gold Card application flow with invalid last name data","chrome","Wed May 21 14:42:26 IST 2025","passed","Wed May 21 14:43:03 IST 2025","","GoldCardApplicationSignUp.spec.ts","",""
+"","34539","@smoke Validate UI elements in Gold Card application flow with invalid first name data","chrome","Wed May 21 14:42:26 IST 2025","passed","Wed May 21 14:43:00 IST 2025","","GoldCardApplicationSignUp.spec.ts","",""
